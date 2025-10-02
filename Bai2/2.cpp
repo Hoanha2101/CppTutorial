@@ -1,31 +1,32 @@
-// #include <iostream>
-// #include <io.h>
-// #include <fcntl.h>
+/*
+#include <iostream>
+#include <io.h>
+#include <fcntl.h>
 
-// using namespace std;
+using namespace std;
 
-// int main() {
-//     // Thiết lập console ở chế độ UTF-16
-//     _setmode(_fileno(stdin), _O_U16TEXT);
-//     _setmode(_fileno(stdout), _O_U16TEXT);
+int main() {
+    // Thiết lập console ở chế độ UTF-16
+    _setmode(_fileno(stdin), _O_U16TEXT);
+    _setmode(_fileno(stdout), _O_U16TEXT);
 
-//     // Xuất dữ liệu Unicode
-//     wcout << L"Xin chào mọi người \n";
-//     wcout << L"Tôi là Hà Khải Hoàn \n";
+    // Xuất dữ liệu Unicode
+    wcout << L"Xin chào mọi người \n";
+    wcout << L"Tôi là Hà Khải Hoàn \n";
 
-//     // Nhập dữ liệu từ bàn phím
-//     double toan, van, tb;
-//     wcout << L"Mời nhập vào điểm Toán: ";
-//     wcin >> toan;
+    // Nhập dữ liệu từ bàn phím
+    double toan, van, tb;
+    wcout << L"Mời nhập vào điểm Toán: ";
+    wcin >> toan;
 
-//     wcout << L"Mời nhập vào điểm Văn: ";
-//     wcin >> van;
+    wcout << L"Mời nhập vào điểm Văn: ";
+    wcin >> van;
 
-//     // Tính trung bình
-//     tb = (toan + van) / 2;
-//     wcout << L"Điểm trung bình của bạn là: " << tb << endl;
-// }
-
+    // Tính trung bình
+    tb = (toan + van) / 2;
+    wcout << L"Điểm trung bình của bạn là: " << tb << endl;
+}
+*/
 #include <iostream>
 #include <io.h>
 #include <fcntl.h>
